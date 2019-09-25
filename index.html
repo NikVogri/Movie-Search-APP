@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <title>Movie Searcher</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <div class="logo">
+                <h1 class="navigation__text">Movie<span>Searcher</span></h1>
+                <img src="img/camera_logo.svg" alt="company logo" class="navigation__logo">
+            </div>
+            <form action="input" class="form">
+                <input type="text" id="getName" class="form__input" placeholder="Enter movie name..." maxlength="75">
+                <img src="img/magnifying-glass.svg" alt="magnifying glass" class="form__img">
+            </form>
+            <a href="mailto:darkpwnss@hotmail.com" class="btn">Contact</a>
+        </nav>
+        <main class="main">
+        </main>
+        <!--<footer class="footer">
+            <p>&copy; Copyright Nick for educational purposes. Using omdb API</p>
+        </footer>
+    </div>-->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
