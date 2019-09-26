@@ -21,7 +21,6 @@ let renderMovie = e => {
     axios
       .get(`http://www.omdbapi.com/?s=${movieName}&apikey=${searchKey}`)
       .then(res => {
-        console.log(res);
         movie = res.data.Search;
         let markup = "";
 
